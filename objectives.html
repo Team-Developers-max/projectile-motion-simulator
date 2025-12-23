@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Engineering Chemistry Virtual Lab</title>
+
+    <style>
+        :root {
+            --primary-neon: #00d5ff;
+            --secondary-neon: #008cff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0f1a;
+            color: #ffffff;
+        }
+
+        /* Reusable neon section */
+        .neon-section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 35px;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 10px;
+            border: 1px solid var(--secondary-neon);
+            box-shadow: 0 0 16px rgba(0, 213, 255, 0.25);
+            transition: all 0.4s ease;
+        }
+
+        /* Hover neon effect */
+        .neon-section:hover {
+            box-shadow:
+                0 0 12px var(--primary-neon),
+                0 0 24px var(--secondary-neon),
+                0 0 40px rgba(0, 213, 255, 0.6);
+            transform: scale(1.02);
+        }
+
+        .neon-section h2 {
+            text-align: center;
+            color: var(--primary-neon);
+            margin-bottom: 22px;
+            text-shadow: 0 0 6px rgba(0, 213, 255, 0.8);
+            transition: text-shadow 0.4s ease;
+        }
+
+        .neon-section:hover h2 {
+            text-shadow:
+                0 0 10px var(--primary-neon),
+                0 0 18px var(--secondary-neon);
+        }
+
+        .neon-section p {
+            color: #d8f6ff;
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .neon-section:hover p {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Objectives Section -->
+<section class="neon-section" id="objectives">
+    <h2>Objectives</h2>
+    <p>
+       The <strong>Projectile Motion Virtual Lab</strong> aims to enhance practical
+understanding by providing an interactive and visual simulation environment
+that helps students analyze projectile motion concepts such as trajectory,
+maximum height, and range.
+
+    </p>
+    <ul>
+        <li>To develop an interactive Physics Virtual Laboratory for understanding projectile motion concepts.</li>
+        <li>To visually demonstrate key parameters such as trajectory, maximum height, and maximum range using simulation.</li>
+        <li>To reduce dependency on purely theoretical problem-solving by providing practical visualization.</li>
+        <li>To help students clearly analyze different projectile motion cases such as ground-to-ground, inclined plane, and projection from height.</li>
+        <li>To make physics learning more engaging, intuitive, and student-friendly through animation-based experiments.</li>
+    </ul>
+</section>
+
+</body>
+</html>
